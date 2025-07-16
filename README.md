@@ -22,6 +22,7 @@ Projede aşağıdaki prompt engineering stratejileri uygulanmıştır:
 Yanıtın stiline ve uzunluğuna (örneğin karakter sayısı) sınır getirilir.
 
 - **Format-Constrained (JSON) Prompting**
+  
 Modelden belirli bir çıktı formatında (örneğin JSON) yanıt istenir.  
 
 - **Self-Reflection Prompting**  
