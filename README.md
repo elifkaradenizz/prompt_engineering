@@ -18,8 +18,14 @@ Projede aşağıdaki prompt engineering stratejileri uygulanmıştır:
 - **Role Prompting**  
   Modele bir rol (örneğin öğretmen, gazeteci) verilerek yanıt şekli yönlendirilir.
 
-- **Self-Ask Prompting**  
-  Modelin kendi alt sorularını üretip cevaplaması sağlanır.
+- **Style & Length Constraint Prompting**  
+Yanıtın stiline ve uzunluğuna (örneğin karakter sayısı) sınır getirilir.
+
+- **Format-Constrained (JSON) Prompting**
+Modelden belirli bir çıktı formatında (örneğin JSON) yanıt istenir.  
+
+- **Self-Reflection Prompting**  
+Modelden bir argüman oluşturması ve ardından kendi argümanının güçlü ve zayıf yönlerini değerlendirmesi istenir.
 
 ## 🛠️ Kullanılan Teknolojiler
 
