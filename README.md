@@ -7,25 +7,26 @@ Bu projede, **OpenAI GPT-3.5-Turbo** modeli kullanılarak çeşitli **prompt olu
 Projede aşağıdaki prompt engineering stratejileri uygulanmıştır:
 
 - **Zero-shot Prompting**  
-  Model, doğrudan soruya maruz bırakılır.
+  Modele herhangi bir örnek verilmeden, doğrudan sorular sorulur.
 
 - **Few-shot Prompting**  
-  Sorudan önce modele birkaç örnek sunularak bağlam kazandırılır.
+  Modele, sorudan önce birkaç örnek sunularak bağlam kazandırılır.
 
 - **Chain-of-Thought Prompting**  
   Modelin düşünme sürecini adım adım açıklaması teşvik edilir.
 
 - **Role Prompting**  
-  Modele bir rol (örneğin öğretmen, gazeteci) verilerek yanıt şekli yönlendirilir.
+  Modele belirli bir rol (örneğin öğretmen veya gazeteci) atanarak yanıt şekli yönlendirilir.
 
 - **Style & Length Constraint Prompting**  
-Yanıtın stiline ve uzunluğuna (örneğin karakter sayısı) sınır getirilir.
+  Yanıtın stiline ve uzunluğuna (örneğin karakter sayısı) sınır getirilir.
 
-- **Format-Constrained (JSON) Prompting**
-  Modelden belirli bir çıktı formatında (örneğin JSON) yanıt istenir.  
+- **Format-Constrained (JSON) Prompting**  
+  Modelden belirli bir çıktı formatında (örneğin JSON) yanıt istenir.
 
 - **Self-Reflection Prompting**  
-Modelden bir argüman oluşturması ve ardından kendi argümanının güçlü ve zayıf yönlerini değerlendirmesi istenir.
+  Modelden önce bir argüman oluşturması, ardından kendi argümanının güçlü ve zayıf yönlerini değerlendirmesi istenir.
+
 
 ## 🛠️ Kullanılan Teknolojiler
 
